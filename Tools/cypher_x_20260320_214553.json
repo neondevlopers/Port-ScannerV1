@@ -1,0 +1,57 @@
+{
+  "target": "wearelao.com",
+  "target_ip": "151.106.103.49",
+  "scan_time": "2026-03-20T21:45:43.413362",
+  "open_ports": [
+    80,
+    443
+  ],
+  "exploitations": {
+    "80": {
+      "service": "HTTP",
+      "vulnerabilities": [
+        {
+          "type": "Exposed Admin Panel",
+          "severity": "HIGH",
+          "description": "Admin panel exposed at /admin",
+          "cve": null,
+          "credentials": null
+        }
+      ],
+      "notes": [
+        "Server: cloudflare"
+      ],
+      "success": true
+    },
+    "443": {
+      "service": "HTTPS",
+      "vulnerabilities": [
+        {
+          "type": "Missing Security Header",
+          "severity": "MEDIUM",
+          "description": "HSTS missing",
+          "cve": null,
+          "credentials": null
+        },
+        {
+          "type": "Missing Security Header",
+          "severity": "MEDIUM",
+          "description": "CSP missing",
+          "cve": null,
+          "credentials": null
+        },
+        {
+          "type": "Missing Security Header",
+          "severity": "MEDIUM",
+          "description": "Clickjacking protection missing",
+          "cve": null,
+          "credentials": null
+        }
+      ],
+      "notes": [
+        "Protocol: TLSv1.3"
+      ],
+      "success": true
+    }
+  }
+}

