@@ -1,6 +1,6 @@
 Run Tools
 ~~~sh 
-python --veraion 
+python --version 
 cd Tools
 python cypherx_exploit.py 
 ~~~
