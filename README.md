@@ -4,6 +4,7 @@ python --veraion
 python cypherx_exploit.py 
 ~~~
 • How To Scan ? 
+
 : Basic Scan
 ~~~sh 
 python cypherx_exploit.py example.com (Basic Scan)
