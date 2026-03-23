@@ -1,6 +1,7 @@
 Run Tools
 ~~~sh 
 python --veraion 
+cd Tools
 python cypherx_exploit.py 
 ~~~
 • How To Scan ? 
