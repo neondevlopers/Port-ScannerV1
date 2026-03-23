@@ -44,4 +44,4 @@ python cypherx_exploit.py example.com -p 1-1000 -t 200
 #  Set timeout 3 MN
 python cypherx_exploitpy example.com --timeout 3 -t 100
 ~~~
-Telegram Channel : CYPHER X
+
