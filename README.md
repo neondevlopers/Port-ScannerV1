@@ -3,8 +3,7 @@ Port Scanner V1.0
 python --veraion 
 python cypherx_exploit.py 
 ~~~
-• How To Scan ?
-• Step By Step 
+• How To Scan ? 
 : Basic Scan
 ~~~sh 
 python cypherx_exploit.py example.com (Basic Scan)
@@ -44,4 +43,3 @@ python cypherx_exploit.py example.com -p 1-1000 -t 200
 python cypherx_exploitpy example.com --timeout 3 -t 100
 ~~~
 : By NeonDevlopers
-: Please use responsibly 👤
